@@ -16,8 +16,7 @@ spec:
       values: |
         persistence:
           defaultClass: false
-          defaultClassReplicaCount: 3 
-          leaderElect: true
+          defaultClassReplicaCount: 1
     repoURL: https://charts.external-secrets.io
     targetRevision: 0.5.9
   syncPolicy:
